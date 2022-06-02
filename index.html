@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow-x: hidden;">
 
 <head>
     <meta charset="UTF-8">
@@ -22,7 +22,32 @@
 <style>
     @media screen and (max-width:606px) {
 
-        .txtt p{
+
+        .ham-menu>ul {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-around;
+            padding: 20px;
+            height: 50%;
+            margin-bottom: 144%;
+        }
+
+        .ham-menu>ul>li {
+            font-size: 1.7rem;
+            white-space: nowrap;
+            letter-spacing: 0.15em;
+            cursor: pointer;
+            color: rgb(97, 97, 97);
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .elon img {
+            width: 100%;
+        }
+
+        .txtt p {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -43,7 +68,7 @@
         }
 
         .black {
-            height: 108.6vh;
+            height: 99.9vh;
         }
 
         .cont {
@@ -76,6 +101,9 @@
         background-color: #000000 !important;
     }
 
+    .com {
+        font-size: 1.8rem;
+    }
 
 
     .navbar-dark .navbar-nav .nav-link:hover {
@@ -88,9 +116,9 @@
     }
 </style>
 
-<body style="width: 100%;">
+<body style="width: 100%; overflow-x: hidden;">
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid" style="z-index:999;">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid" style="z-index:999;">
         <div class="container-fluid">
             <div>
                 <a class="navbar-brand bold logo" href="#" style="font-size: .9rem;">
@@ -121,9 +149,34 @@
 
             </div>
         </div>
-    </nav>
+    </nav> -->
     <!-- navbar End -->
 
+
+    <input type="checkbox" id="ham-menu">
+    <label for="ham-menu">
+        <div class="hide-des">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+        </div>
+
+    </label>
+    <div class="full-page-green"></div>
+    <div class="ham-menu">
+        <ul class="centre-text bold-text">
+            <li>Home</li>
+            <li>Categories</li>
+            <li>Services</li>
+            <li>Shop</li>
+            <li>Support</li>
+            <li>Contact us</li>
+
+        </ul>
+    </div>
 
     <!-- slider Start -->
     <section class="slider">
@@ -137,12 +190,12 @@
                     Financial backers get a benefit of 4 to 6% Day on their speculation portfolio. Here are 4 simple
                     strides
                     to get enroll and bring in cash.
-                </p>
+                </p> <br>
 
                 <p class="mq"> <i class="fa-solid fa-star"></i></i> Make a record by utilizing your email and
-                    versatile number.</p>
+                    versatile number.</p><br>
                 <p> <i class="fa-solid fa-star"></i></i> Store assets through Credit Card or Bank Transfer
-                </p>
+                </p><br>
                 <p> <i class="fa-solid fa-star"></i></i> Dear members we provide you 8% profit of your
                     investment on monthly base.</p><br>
 
@@ -243,13 +296,12 @@
 
             <div class="4">
                 <i class="fa-regular fa-horizontal-rule"></i>
-                <h5 class="Know">Know we are</h5>
-                <p class="com">About our company</p>
-                <p style="width: 33rem;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, dolorem
+                <h5 class="Know ">Know we are</h5>
+                <p class="com ">About our company</p>
+                <p class="center" style="width: 33rem;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam,
+                    dolorem
                     adipisci pariatur commodi voluptatem praesentium sit laborum dignissimos voluptate corrupti, cumque
-                    quis aspernatur culpa dolores iusto. Eos nihil magnam quam laboriosam delectus veniam vitae itaque
-                    assumenda quod! Possimus quis cum consequatur maiores eius neque at, iste rerum aliquam nemo iure
-                    officiis dignissimos porro earum cupiditate qui, fugit aspernatur modi rem?</p>
+                </p>
             </div>
 
             <div class="elon">
@@ -276,7 +328,7 @@
 
     <div class="abs center mt-5"
         style="position: absolute; height: 5rem; width: 100%; background-color: black; color: white;">
-        <p class="" style="font-size:1.3rem; font-family:Verdana, Geneva, Tahoma, sans-serif;">Golden Currency
+        <p class="" style="font-size:1.1rem; font-family:Verdana, Geneva, Tahoma, sans-serif;">Golden Currency
             Investment 2022 </p>
     </div>
 
@@ -291,9 +343,7 @@
     <a href="https://wa.me/+917073599374" class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
-    <a href="tel:+917073599374" class="float1" target="_blank">
-        <i class="fa fa-phone my-float1"></i>
-    </a>
+    
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
