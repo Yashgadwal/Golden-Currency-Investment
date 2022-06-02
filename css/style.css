@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    height: 300vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.navbar-brand span{
+    color: rgb(255, 196, 47);
+    font-family: 'EB Garamond', serif;
+    font-size: 2.1rem;
+}
+
+.slider img {
+    height: 100vh;
+    width: 100%;
+}
+
+.cont .p {
+    position: absolute;
+    top: 50%;
+    font-size: 2rem;
+    font-family: 'Tiro Gurmukhi', serif;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    left: 8%;
+}
+
+.black {
+    height: 108vh;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    top: 0%;
+    opacity: 0.7;
+}
+
+.p h2 {
+    font-size: 3.3rem;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 900;
+}
+
+.p p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.h2 {
+    font-size: 1.4rem;
+}
+
+.p i {
+    color: yellow;
+}
+
+#red {
+    color: aqua;
+}
+
+#green {
+    color: rgb(40, 207, 40);
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.float1 {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: blue;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.intro h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+h3 span {
+    color: rgb(255, 196, 47);
+}
+
+.txt1 {
+    font-size: 1.3rem;
+    width: 1rem;
+}
+
+.dots {
+    font-size: 3.1rem;
+    color: rgb(255, 196, 47);
+}
+
+.fa-wallet {
+    font-size: 2.3rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    padding: 1.5rem;
+    transition: background-color 0.4s;
+    -webkit-transition: background-color 0.4s;
+    -moz-transition: background-color 0.4s;
+    -ms-transition: background-color 0.4s;
+    -o-transition: background-color 0.4s;
+}
+
+.fa-wallet:hover {
+    background-color: #ffd700;
+    color: white;
+}
+
+.txt2 {
+    margin-left: 2rem;
+    /* width: 19rem; */
+}
+
+.txt2 h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.txt2 h4:hover {
+    color: #ffd700;
+}
+
+.wal {
+    color: #ffd700;
+}
+
+.wal1 {
+    background-color: #ffd700;
+}
+
+.txtt p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-clock {
+    font-size: 2.3rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    padding: 1.5rem;
+    transition: background-color 0.4s;
+    -webkit-transition: background-color 0.4s;
+    -moz-transition: background-color 0.4s;
+    -ms-transition: background-color 0.4s;
+    -o-transition: background-color 0.4s;
+}
+
+.fa-chart-line {
+    font-size: 2.3rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    padding: 1.5rem;
+    transition: background-color 0.4s;
+    -webkit-transition: background-color 0.4s;
+    -moz-transition: background-color 0.4s;
+    -ms-transition: background-color 0.4s;
+    -o-transition: background-color 0.4s;
+}
+
+.fa-chart-line:hover {
+    background-color: #ffd700;
+}
+
+.right {
+    float: right;
+}
+
+.sec {
+    justify-content: space-evenly;
+}
+
+.Know {
+    font-size: 1.4rem;
+}
+
+.com {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.elon img {
+    height: 20rem;
+}
+
+.txtt {
+    /* height: rem; */
+    width: 100%;
+    background-color: #ffd700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.txtt p {
+    margin-bottom: 4rem;
+}
+
+.services {
+    font-size: 1.7rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    margin-left: 0.4rem;
+}
+
+.btnn button {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.btnn button:hover {
+    background: none;
+    border: 4px solid black;
+    color: black;
+}
+
+.footer {
+    z-index: 999;
+    position: f;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.bg-dark {
+    background-color: #000000!important;
+}
+
+a .nav-link{
+    color: #ffd700;
+}
